@@ -1,0 +1,155 @@
+
+/* hero section */
+.hero-section{
+    background: #EDF2F7;
+    height: 600px;
+}
+
+
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainNav{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+}
+
+.mainNav li{
+    display: inline-block;
+}
+
+.mainNav li a {
+    color: #071827;
+    margin: 0 22px;
+    font-weight: 14px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.mainNav li.headerbtn a {
+    color: #fff;
+}
+
+.btn-verox{
+    background: #4D3B91;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 30px;
+    transition: all ease-in .15s;
+}
+
+.btn-verox:hover{
+    background: #4D3B91;
+    color: white;
+}
+
+.hero-head{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+/* about section */
+.about-section{
+    background: linear-gradient(rgba(237,242,247,0.5), rgba(237,242,247,0.5));
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-span{
+    font-weight: bold;
+    color: #4D3B91;
+    position: relative;
+}
+.about-span img{
+    position: absolute;
+    bottom: -6px;
+    left: 0px
+}
+.about-card{
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 30px 30px;
+}
+.about-img{
+    background: #EDF2F7;
+    border-radius: 24px;
+    width: 100%;
+    height: 150px;
+}
+
+
+/* process section */
+.process-section{
+    background: #4F4398;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.process-head{
+    color: #FFFFFF;
+    font-weight: 800;
+    position: relative;
+}
+.process-head img{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    bottom: 0px;
+}
+
+/* download section */
+.download-section{
+    background: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.download-div{
+    background: #dce3e9;
+    border-radius: 16px;
+    padding-top: 20px;
+}
+
+/* footer styles */
+footer{
+    background: #112232;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-links{
+    display: flex;
+    color: #E9F2FF;
+    justify-content: space-between;
+}
+.footer-link{
+    display: flex;
+    list-style: none;
+}
+
+.footer-link li {
+    margin-right: 20px;
+}
+
+.footer-link li:last-child{
+    margin-right: 0px;
+}
+
+.footer-link li a{
+    color: #E9F2FF;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+/* Media query for smaller phones */
+
+@media (max-width:767px) {
+
+}

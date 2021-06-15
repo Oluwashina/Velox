@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// import fonts for use
+import './fonts/markpro/MARKPROMEDIUM.OTF'
+import './fonts/markpro/MARKPRO.OTF'
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
