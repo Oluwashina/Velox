@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Logo from '../../assets/images/logo.svg'
 import HeroHand from '../../assets/images/hero-hand.svg'
 import AppleStore from '../../assets/images/applePlayStore.svg'
@@ -6,6 +6,22 @@ import GoogleStore from '../../assets/images/googlePlayStore.svg'
 import {Link} from 'react-router-dom'
 
 const Hero = () => {
+    const [navShow, setnavShow] = useState(false);
+
+    const handleToggle = () =>{
+        setnavShow(navShow ? false : true);
+        switch(navShow){
+            case false:
+                document.body.classList.add('body-hidden');
+            break;
+            case true:
+                document.body.classList.remove('body-hidden');
+                break;
+            default:
+                break;
+        }
+    }
+
     return ( 
         <>
         <div className="hero-section">
@@ -15,7 +31,7 @@ const Hero = () => {
                      <div className="logo">
                         <img src={Logo} alt="logo" className="img-fluid" />
                     </div>
-                    <nav>
+                    <nav className={ navShow ? "open" : "" }>
                         <ul className="mainNav">
                             <li className="navLink">
                                 <Link className="" to="/" style={{fontWeight: 'bold'}}>
@@ -29,6 +45,15 @@ const Hero = () => {
                             </li>
                         </ul>
                     </nav>
+
+                     {/* navicon - hamburger */}
+                     <div className="navicon"  onClick={handleToggle}>
+                        <div className={ navShow ? "nav-toggle active" : "nav-toggle" }>
+                            <span>
+                            </span>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div className="row mt-4">
@@ -49,11 +74,11 @@ const Hero = () => {
                                 fontSize: 15
                             }}>
                             Access up to NGN5,000,000 instantly with Velox Nano,
-                            <br /> Public Sector and Private sector loan product.
+                            <span className="hero-break"> Public Sector and Private sector loan product.</span>
                             </p>
 
                              {/* link to download - appstore and playstore */}
-                            <div className="mt-5" style={{ display: "flex" }}>
+                            <div className="mt-5 mb-5 mb-lg-0" style={{ display: "flex" }}>
                                 <a href="https://google.com">
                                     <img alt="googleplaystore" src={GoogleStore} className="img-fluid" />
                                 </a>
@@ -69,7 +94,7 @@ const Hero = () => {
 
                         
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 d-none d-md-none d-lg-block">
                         <div>
                             <img src={HeroHand} className="img-fluid" alt="hero-hand" />
                         </div>

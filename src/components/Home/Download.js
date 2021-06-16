@@ -13,25 +13,25 @@ const Download = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4">
-                                    <div>
+                                <div className="text-lg-left text-center">
                                         <img src={Phone} className="img-fluid" alt="phone" />
-                                    </div>
+                                 </div>
                             </div>
                             <div className="col-lg-8">
                                 <div className="mt-5">
-                                    <h2 style={{color: '#4D3B91', fontWeight: 800}}>Access your loans now</h2>
+                                    <h3 className="text-lg-left text-center" style={{color: '#4D3B91', fontWeight: 800}}>Access your loans now</h3>
                                 </div>
 
                                  {/* link to download - appstore and playstore */}
-                                <div className="mt-4" style={{ display: "flex" }}>
-                                    <a href="https://google.com">
+                                <div className="mt-4 download-icon">
+                                    <a href="https://google.com" className="text-lg-left text-center mb-3 mb-lg-0">
                                         <img alt="googleplaystore" src={googlePlayStore} className="img-fluid" />
                                     </a>
-                                    <a href="https://google.com">
+                                    <a href="https://google.com" className="text-lg-left text-center">
                                         <img
                                         alt="applestore"
                                         src={applePlayStore}
-                                        className="img-fluid ml-3"
+                                        className="img-fluid ml-0 ml-lg-3"
                                         />
                                     </a>
                                 </div>

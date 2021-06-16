@@ -12,7 +12,7 @@ const Process = () => {
                         <img src={Line} className="img-fluid" alt="line" />
                     </div>
 
-                    <div className="row mt-4">
+                    <div className="row mt-3">
                         <div className="col-lg-7">
 
                         </div>
