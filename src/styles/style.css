@@ -213,9 +213,12 @@
 
 /* process section */
 .process-section{
-    background: #4F4398;
+    /* background: #4F4398; */
     padding-top: 70px;
     padding-bottom: 70px;
+    background-image: url("../assets/images/patternedBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .process-head{

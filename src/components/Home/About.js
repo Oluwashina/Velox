@@ -41,7 +41,7 @@ const AboutSection = () => {
 
                                     <div>
                                         <p style={{lineHeight: '28px', fontSize: 15}}>
-                                        Are you a salary earner with good credit history? Please click the link below for quick access to a loan up to <span style={{color: '#B6A5FC', fontWeight: 500}}>NGN5,000,000</span> 
+                                        Are you a salary earner with good credit history? Please click the link below for quick access to a loan up to <span style={{color: '#9B51E0', fontWeight: 600}}>NGN5,000,000</span> 
                                         </p>
                                     </div>
 
@@ -74,7 +74,7 @@ const AboutSection = () => {
 
                                     <div>
                                         <p style={{lineHeight: '28px', fontSize: 15}}>
-                                        Do you work for Federal or State civil service? Do you have IPPIS number or Oracle number? Please click on the loan below to access up to NGN5,000,000 in five minutes.  
+                                        Do you work for Federal or State civil service? Do you have IPPIS number or Oracle number? Please click on the loan below to access up to  <span style={{color: '#E1A900', fontWeight: 600}}>NGN5,000,000</span> in five minutes.  
                                         </p>
                                     </div>
 
@@ -108,7 +108,7 @@ const AboutSection = () => {
 
                                 <div>
                                     <p style={{lineHeight: '28px', fontSize: 15}}>
-                                    Are you a student, artisan or currently unemployed? Please click the link below for quick access to a loan up to NGN5,000,000
+                                    Are you a student, artisan or currently unemployed? Please click the link below for quick access to a loan up to <span style={{color: '#339359', fontWeight: 600}}>NGN5,000,000</span>
                                     </p>
                                 </div>
 
