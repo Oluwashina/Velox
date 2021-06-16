@@ -13,13 +13,13 @@ const Process = () => {
                     </div>
 
                     <div className="row" style={{alignItems: 'center'}}>
-                        <div className="col-lg-7 mt-4">
+                        <div className="col-lg-7 mt-5 mt-lg-4">
 
                             {/* steps layout */}
-                            <div>
-                                <div style={{display: 'flex',}}>
+                            <div className="step-head">
+                                <div className="steps" style={{display: 'flex',}}>
                                     <div>
-                                        <h3 style={{color: '#fff', fontWeight: 'bold'}}>01</h3>
+                                        <h3 className="steps-line" style={{color: '#fff', fontWeight: 'bold'}}>01</h3>
                                     </div>
                                     <div className="ml-5">
                                         <h5 style={{color: '#fff', fontWeight: 'bold'}}>Login or Create Account</h5>
@@ -27,9 +27,9 @@ const Process = () => {
                                     </div>
                                 </div>
 
-                                <div className="mt-5" style={{display: 'flex',}}>
+                                <div className="steps mt-4 mt-lg-5" style={{display: 'flex',}}>
                                     <div>
-                                        <h3 style={{color: '#fff', fontWeight: 'bold'}}>02</h3>
+                                        <h3 className="steps-line" style={{color: '#fff', fontWeight: 'bold'}}>02</h3>
                                     </div>
                                     <div className="ml-5">
                                         <h5 style={{color: '#fff', fontWeight: 'bold'}}>Select Preferred Loan Amount </h5>
@@ -37,9 +37,9 @@ const Process = () => {
                                     </div>
                                 </div>
 
-                                <div className="mt-5" style={{display: 'flex',}}>
+                                <div className="steps mt-4 mt-lg-5" style={{display: 'flex',}}>
                                     <div>
-                                        <h3 style={{color: '#fff', fontWeight: 'bold'}}>03</h3>
+                                        <h3 className="steps-line" style={{color: '#fff', fontWeight: 'bold'}}>03</h3>
                                     </div>
                                     <div className="ml-5">
                                         <h5 style={{color: '#fff', fontWeight: 'bold'}}>Select installment plan </h5>
@@ -47,7 +47,7 @@ const Process = () => {
                                     </div>
                                 </div>
 
-                                <div className="mt-5" style={{display: 'flex',}}>
+                                <div className="steps mt-5 mt-lg-5" style={{display: 'flex',}}>
                                     <div>
                                         <h3 style={{color: '#fff', fontWeight: 'bold'}}>04</h3>
                                     </div>

@@ -233,6 +233,38 @@
     bottom: 0px;
 }
 
+.steps-line{
+    position: relative;
+}
+
+.step-head .steps:nth-child(1) .steps-line::after{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    content: '';
+    transition: all .3s ease-in-out 0s;
+    background-image: url(../assets/images/process-line.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 2px;
+}
+
+.step-head .steps .steps-line::after{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    content: '';
+    transition: all .3s ease-in-out 0s;
+    background-image: url(../assets/images/process-line.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 2px;
+}
+
+
+
 /* download section */
 .download-section{
     background: #fff;
