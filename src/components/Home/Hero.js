@@ -62,7 +62,7 @@ const Hero = () => {
                             <h1
                                 style={{
                                     color: "#071827",
-                                    fontWeight: 800,
+                                    fontWeight: 900,
                                     lineHeight: "52px",
                                 }}
                             >Access to Quick<br />

@@ -19,7 +19,7 @@ const AboutSection = () => {
                               </span>
                             </h2>
                           <div className="mt-lg-3 mt-4">
-                              <p style={{color: '#718596'}}>We are for everyone, with our suits of Nano and loans that suit everybody</p>
+                              <p style={{color: '#718596',}}>We are for everyone, with our suits of Nano and loans that suit everybody</p>
                           </div>
                     </div> 
                     

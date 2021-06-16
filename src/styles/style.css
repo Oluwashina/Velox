@@ -40,13 +40,14 @@
 
 .mainNav li.headerbtn a {
     color: #fff;
+    min-width: 167px;
 }
 
 .btn-verox{
     background: #4D3B91;
     border-radius: 4px;
     color: white;
-    padding: 10px 30px;
+    padding: 12px 35px;
     transition: all ease-in .15s;
 }
 

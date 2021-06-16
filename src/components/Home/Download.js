@@ -19,7 +19,7 @@ const Download = () => {
                             </div>
                             <div className="col-lg-8">
                                 <div className="mt-5">
-                                    <h3 className="text-lg-left text-center" style={{color: '#4D3B91', fontWeight: 800}}>Access your loans now</h3>
+                                    <h3 className="text-lg-left text-center" style={{color: '#4D3B91', fontWeight: 900}}>Access your loans now</h3>
                                 </div>
 
                                  {/* link to download - appstore and playstore */}
