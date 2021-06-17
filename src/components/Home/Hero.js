@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Logo from '../../assets/images/logo.svg'
-import HeroHand from '../../assets/images/hero-hand.svg'
+import HeroHand from '../../assets/images/hero-hand.png'
 import AppleStore from '../../assets/images/applePlayStore.svg'
 import GoogleStore from '../../assets/images/googlePlayStore.svg'
 import {Link} from 'react-router-dom'
@@ -64,6 +64,7 @@ const Hero = () => {
                                     color: "#071827",
                                     fontWeight: 900,
                                     lineHeight: "52px",
+                                    fontFamily: 'MarkProHeavy'
                                 }}
                             >Access to Quick<br />
                                 Loan just got easy</h1>  

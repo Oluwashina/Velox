@@ -10,6 +10,11 @@
   src: local('MarkPro'), url(./fonts/markpro/MARKPROMEDIUM.OTF);
 }
 
+@font-face{
+  font-family: 'MarkProHeavy';
+  src: local('MarkPro'), url(./fonts/markpro/MARKPROHEAVY.OTF);
+}
+
 body{
   font-family: 'MarkPro';
   color: #071827;

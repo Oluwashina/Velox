@@ -1,8 +1,8 @@
 import React from 'react';
 import Line from '../../assets/images/line.svg'
-import Private from '../../assets/images/Private Sector.svg'
-import Student from '../../assets/images/Student.svg'
-import Public from '../../assets/images/Public.svg'
+import Private from '../../assets/images/Private Sector.png'
+import Student from '../../assets/images/Student.png'
+import Public from '../../assets/images/Public.png'
 import purpleArrow from '../../assets/images/purple-arrow.svg'
 import yellowArrow from '../../assets/images/yellow-arrow.svg'
 import greenArrow from '../../assets/images/green-arrow.svg'

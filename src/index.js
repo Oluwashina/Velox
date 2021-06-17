@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 // import fonts for use
 import './fonts/markpro/MARKPROMEDIUM.OTF'
 import './fonts/markpro/MARKPRO.OTF'
+import './fonts/markpro/MARKPROHEAVY.OTF'
 
 ReactDOM.render(
   <React.StrictMode>
