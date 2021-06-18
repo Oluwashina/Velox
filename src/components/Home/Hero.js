@@ -3,7 +3,7 @@ import Logo from '../../assets/images/logo.svg'
 import HeroHand from '../../assets/images/hero-hand.png'
 import AppleStore from '../../assets/images/applePlayStore.svg'
 import GoogleStore from '../../assets/images/googlePlayStore.svg'
-import {Link} from 'react-router-dom'
+
 
 const Hero = () => {
     const [navShow, setnavShow] = useState(false);
@@ -34,14 +34,14 @@ const Hero = () => {
                     <nav className={ navShow ? "open" : "" }>
                         <ul className="mainNav">
                             <li className="navLink">
-                                <Link className="" to="/" style={{fontWeight: 'bold'}}>
+                                <a target="_blank"  rel="noreferrer" href="https://velox-online.banklingo.app/auth/login" style={{fontWeight: 'bold'}}>
                                 Log In
-                                </Link>
+                                </a>
                             </li>
                             <li className="headerbtn">
-                                <Link className="btn btn-verox" to="/">
+                                <a target="_blank"  rel="noreferrer" className="btn btn-verox" href="https://velox-online.banklingo.app/auth/sign-up">
                                 Get started
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </nav>

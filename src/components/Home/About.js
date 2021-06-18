@@ -48,7 +48,7 @@ const AboutSection = () => {
                                     <div className="about-links">
                                         <div className="private">
                                             {/* <h6 className="private">GET STARTED</h6> */}
-                                            <a className="private" href="https://google.com">
+                                            <a target="_blank"  rel="noreferrer" className="private" href="https://velox-online.banklingo.app/auth/sign-up">
                                                 GET STARTED
                                                 <img alt="" src={purpleArrow} className="img-fluid ml-2" />
                                             </a>
@@ -81,7 +81,7 @@ const AboutSection = () => {
                                     <div className="about-links">
 
                                         <div className="public">
-                                          <a className="public" href="https://google.com">
+                                          <a target="_blank"  rel="noreferrer" className="public" href="https://velox-online.banklingo.app/auth/sign-up">
                                                 GET STARTED
                                                 <img alt="" src={yellowArrow} className="img-fluid ml-2" />
                                             </a>
@@ -115,7 +115,7 @@ const AboutSection = () => {
                                 <div className="about-links">
 
                                     <div className="student">
-                                        <a className="student" href="https://google.com">
+                                        <a target="_blank"  rel="noreferrer" className="student" href="https://velox-online.banklingo.app/auth/sign-up">
                                                 GET STARTED
                                                 <img alt="" src={greenArrow} className="img-fluid ml-2" />
                                             </a>

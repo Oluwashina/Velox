@@ -168,6 +168,9 @@
     padding: 30px 30px;
     height: 513.91px;
 }
+
+
+
 .about-img{
  position: relative;
 }
@@ -183,6 +186,11 @@
     font-weight: bold;
     font-size: 14px;
     text-decoration: none;
+    transition: transform 1s;
+}
+
+.about-links .private:hover{
+    transform: translateX(10px);
 }
 
 .about-links div.private{
@@ -194,6 +202,11 @@
     font-weight: bold;
     font-size: 14px;
     text-decoration: none;
+    transition: transform 1s;
+}
+
+.about-links .public:hover{
+    transform: translateX(10px);
 }
 
 .about-links div.public{
@@ -205,7 +218,13 @@
     font-weight: bold;
     font-size: 14px;
     text-decoration: none;
+    transition: transform 1s;
 }
+
+.about-links .student:hover{
+    transform: translateX(10px);
+}
+
 .about-links div.student{
     margin-top: 80px;
 }
