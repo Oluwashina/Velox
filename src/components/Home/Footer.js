@@ -13,17 +13,17 @@ const Footer = () => {
                     <div>
                         <ul className="footer-link mb-0">
                             <li>
-                                <Link to="/">
+                                <Link to="/privacy">
                                     Privacy Policy
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/">
+                                <Link to="/terms">
                                     Terms and Conditions
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/">
+                                <Link to="/faq">
                                     FAQs
                                 </Link>
                             </li>

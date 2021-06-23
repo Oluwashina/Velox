@@ -331,6 +331,37 @@ footer{
 }
 
 
+/* Terms Page styles */
+.terms-head{
+    background: #4F4398;
+    padding: 80px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.terms-head h3{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'MarkProHeavy'
+}
+.terms-content{
+    background: linear-gradient(rgba(237,242,247,0.5), rgba(237,242,247,0.5));
+    padding: 50px 70px 100px 70px;
+}
+
+.terms-content div > p{
+    color: #000000;
+    line-height: 27px;
+}
+
+/* faq styles */
+.faq-content{
+    background: linear-gradient(rgba(237,242,247,0.5), rgba(237,242,247,0.5));
+    padding: 50px 70px 100px 70px;
+}
+
+
+
 
 /* Media query for smaller phones */
 @media (max-width:767px) {
@@ -449,6 +480,16 @@ footer{
 }
 .footer-link li{
     margin-top: 10px;
+}
+
+/* terms content */
+.terms-content{
+    padding: 20px 20px;
+}
+
+/* faq content */
+.faq-content{
+    padding: 20px 20px; 
 }
 
 }
