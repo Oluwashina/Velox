@@ -1,8 +1,11 @@
 import React from 'react';
 import Navbar from '../components/Home/Navbar';
-// import Footer from '../components/Home/Footer'
+import Footer from '../components/Home/Footer'
+import FaqItem from '../components/FAQ/FaqItem';
+import {FAQS} from '../components/FAQ/faqData'
 
 const FAQ = () => {
+
     return ( 
         <>
         <Navbar />
@@ -12,12 +15,18 @@ const FAQ = () => {
             </div>
 
              {/* terms text layout */}
-             <div className="faq-content">
-
+             <div className="faq-layout">
+                 {FAQS.map(({title, content})=>(
+                            <FaqItem title={title} key={title}>
+                                {content()}
+                            </FaqItem>
+                ))}        
+        
              </div>
 
 
         </div>
+        <Footer />
 
         </>
      );

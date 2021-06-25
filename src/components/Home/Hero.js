@@ -4,7 +4,6 @@ import HeroHand from '../../assets/images/hero-hand.png'
 import AppleStore from '../../assets/images/applePlayStore.svg'
 import GoogleStore from '../../assets/images/googlePlayStore.svg'
 
-
 const Hero = () => {
     const [navShow, setnavShow] = useState(false);
 
@@ -34,12 +33,12 @@ const Hero = () => {
                     <nav className={ navShow ? "open" : "" }>
                         <ul className="mainNav">
                             <li className="navLink">
-                                <a target="_blank"  rel="noreferrer" href="https://velox-online.banklingo.app/auth/login" style={{fontWeight: 'bold'}}>
+                                <a target="_blank"  rel="noreferrer" href="https://online.myvelox.io/auth/login" style={{fontWeight: 'bold'}}>
                                 Log In
                                 </a>
                             </li>
                             <li className="headerbtn">
-                                <a target="_blank"  rel="noreferrer" className="btn btn-verox" href="https://velox-online.banklingo.app/auth/sign-up">
+                              <a target="_blank"  rel="noreferrer" className="btn btn-verox" href="https://online.myvelox.io/auth/sign-up">
                                 Get started
                                 </a>
                             </li>
