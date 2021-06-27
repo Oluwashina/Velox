@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import Logo from '../../assets/images/logo.svg'
+import {Link} from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -25,9 +26,9 @@ const Navbar = () => {
          <div className="container">
 
             <div className="header py-4">
-                <div className="logo">
+                <Link to="/" className="logo">
                     <img src={Logo} alt="logo" className="img-fluid" />
-                </div>
+                </Link>
                 <nav className={ navShow ? "open" : "" }>
                     <ul className="mainNav">
                         <li className="navLink">

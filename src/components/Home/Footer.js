@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-links">
                     <div>
-                        <p className="mb-0" style={{fontSize: 15}}>&copy; { new Date().getFullYear()} Spaces Inc.</p>
+                        <p className="mb-0" style={{fontSize: 15}}>&copy; { new Date().getFullYear()} CORE CAPITAL LIMITED</p>
                     </div>
                     <div>
                         <ul className="footer-link mb-0">

@@ -3,6 +3,7 @@ import Logo from '../../assets/images/logo.svg'
 import HeroHand from '../../assets/images/hero-hand.png'
 import AppleStore from '../../assets/images/applePlayStore.svg'
 import GoogleStore from '../../assets/images/googlePlayStore.svg'
+import {Link} from 'react-router-dom'
 
 const Hero = () => {
     const [navShow, setnavShow] = useState(false);
@@ -27,9 +28,9 @@ const Hero = () => {
             <div className="container">
 
                 <div className="header py-4">
-                     <div className="logo">
+                     <Link to="/" className="logo">
                         <img src={Logo} alt="logo" className="img-fluid" />
-                    </div>
+                    </Link>
                     <nav className={ navShow ? "open" : "" }>
                         <ul className="mainNav">
                             <li className="navLink">
