@@ -349,6 +349,11 @@ footer{
     padding: 50px 70px 100px 70px;
 }
 
+.terms-content div > h6{
+    color: #000000;
+    font-weight: bold;
+}
+
 .terms-content div > p{
     color: #000000;
     line-height: 27px;

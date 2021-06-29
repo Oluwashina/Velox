@@ -1,11 +1,9 @@
 import React from 'react';
-import Navbar from '../components/Home/Navbar';
-import Footer from '../components/Home/Footer'
+import Footer from '../components/Home/FooterMobile'
 
-const PrivacyPage = () => {
+const PrivacyMobile = () => {
     return ( 
         <>
-        <Navbar />
         
         {/* terms head */}
         <div className="container mt-4">
@@ -216,4 +214,4 @@ access token necessary to access that service, any information that you have per
      );
 }
  
-export default PrivacyPage;
+export default PrivacyMobile;
